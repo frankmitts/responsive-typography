@@ -30,6 +30,14 @@ article header {
   border-bottom: 1px solid #999;
 }
 
+header {
+  line-height: .5em;
+}
+
+article p, ol {
+  font-size: 16px;
+}
+
 article header p {
   font-style: italic;
 }
@@ -42,8 +50,17 @@ blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin: 0;
 }
 
 .quote {
   color: #999;
+}
+
+body {
+  padding: .75em;
+}
+
+article ol {
+  padding: 1.2em;
 }
